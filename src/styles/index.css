@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.beast-avatar {
+  filter: sepia(1) hue-rotate(-50deg) brightness(0.7) contrast(1.2);
+  @apply border border-orange-900 bg-black shadow-inner;
+}
+
+.magma-text {
+  @apply text-orange-600;
+  text-shadow: 0 0 10px rgba(255, 60, 0, 0.4);
+}
+
+.scroll-hide::-webkit-scrollbar { display: none; }
