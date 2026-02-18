@@ -1,0 +1,12 @@
+.
+├── src/
+│   ├── components/
+│   │   ├── Altar.jsx        # Main feed logic
+│   │   ├── Reliquary.jsx    # Sidebar/Deity list
+│   │   └── Summoner.jsx     # Modal for creating beasts
+│   ├── styles/
+│   │   └── index.css        # Magma & Obsidian Tailwind layer
+│   ├── App.jsx              # Root State Manager
+│   └── main.jsx             # Entry point
+├── index.html               # Vite Entry
+└── package.json             # Scripts & Deps
